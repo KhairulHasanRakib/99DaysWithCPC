@@ -1,0 +1,8 @@
+# Number format
+# (xxx) xxx-xxxx or xxx-xxx-xxxx. x = digit
+
+987-123-4567
+(987) 123-7890
+456-123-7890
+123 456 7890
+(123) 456-7890
