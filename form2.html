@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Google Forms Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Feedback Form</h1>
+        <form id="feedbackForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label>How would you rate our service?</label>
+                <div>
+                    <input type="radio" id="excellent" name="rating" value="Excellent" required>
+                    <label for="excellent">Excellent</label>
+                </div>
+                <div>
+                    <input type="radio" id="good" name="rating" value="Good">
+                    <label for="good">Good</label>
+                </div>
+                <div>
+                    <input type="radio" id="average" name="rating" value="Average">
+                    <label for="average">Average</label>
+                </div>
+                <div>
+                    <input type="radio" id="poor" name="rating" value="Poor">
+                    <label for="poor">Poor</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="responseMessage" class="response-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
