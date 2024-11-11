@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+</head>
+
+<body>
+
+    <header>Watch YouTube Serial</header>
+
+    <div class="series-list">
+        <!-- Series items -->
+        <div class="series-item" onclick="toggleSeries(1)">Series 1</div>
+        <div class="series-item" onclick="toggleSeries(2)">Series 2</div>
+        <!-- Add more series items as needed -->
+    </div>
+
+    <!-- Video Rows for Each Series -->
+    <div id="series-1" class="video-row-container">
+        <div class="video-row">
+            <div class="video" onclick="openPopup('https://www.youtube.com/embed/gauHd3Jncwg')">
+                <img src="https://img.youtube.com/vi/YouTube-ID/0.jpg" alt="Video Thumbnail">
+                <div class="video-title">Video 1</div>
+            </div>
+            <!-- Repeat for more videos -->
+        </div>
+    </div>
+    
+    <div id="series-2" class="video-row-container">
+        <div class="video-row">
+            <div class="video" onclick="openPopup('https://www.youtube.com/embed/l8XuOzuxvBk')">
+                <img src="https://img.youtube.com/vi/YouTube-ID/0.jpg" alt="Video Thumbnail">
+                <div class="video-title">Video 2</div>
+            </div>
+            <!-- Repeat for more videos -->
+        </div>
+    </div>
+
+    <!-- Popup for video -->
+    <div class="popup" id="videoPopup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <iframe id="videoFrame" src="" frameborder="0" allowfullscreen title="YouTube Video"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
