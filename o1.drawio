@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rNNXV_eXRiIa2x4_hBiH" name="Page-1">
-        <mxGraphModel dx="989" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+        <mxGraphModel dx="989" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -341,8 +341,17 @@
                 <mxCell id="112" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;labelBorderColor=default;" vertex="1" parent="1">
                     <mxGeometry x="697.5" y="40" width="95" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="114" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.userMale;strokeColor=#666666;strokeColor2=#008cff;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="81.75" y="40" width="40" height="40" as="geometry"/>
+                </mxCell>
                 <mxCell id="113" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.indeterminateSpinner;labelBorderColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="69.75" y="30" width="65" height="65" as="geometry"/>
+                    <mxGeometry x="64.75" y="25" width="75" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_devices;pointerEvents=1;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="612.05" y="40" width="47.95" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.client;aspect=fixed;strokeColor=none;fillColor=#777777;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="180.91" y="40.25" width="25.67" height="44.5" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
