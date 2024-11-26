@@ -23,14 +23,3 @@ Addition (+) and Subtraction (-) Operators:
 Adding an integer value to a pointer (ptr + n) moves it forward by n times the size of the data type.
 Subtracting an integer value from a pointer (ptr - n) moves it backward by n times the size of the data type.
 Review the code in the IDE. Click on 'Submit' to know the result
-
-Did you like the problem?
-4 users found this helpful
-C++
-
-Your program will run with no input
-Run
-Submit
-
-
-Next
